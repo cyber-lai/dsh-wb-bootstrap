@@ -1,6 +1,6 @@
 {
   "schema": "dsh/bootstrap/1",
-  "updatedAt": "2026-11-20T20:11:58.638Z",
+  "updatedAt": "2026-11-20T20:12:53.517Z",
   "note": "实例的公网域名每次重启都会变（cpolar 重新签发子域）。这份文件的唯一职责是让客户端在不依赖旧链接的情况下找到活着的入口。改域名就改这里并提交，客户端按自己的轮询周期自动跟上。",
   "entries": [
     {
@@ -24,9 +24,9 @@
       "id": "default",
       "label": "default",
       "profile": "default",
-      "baseUrl": "https://7a320a86.r3.cpolar.cn",
-      "port": 8816,
-      "updatedAt": "2026-11-20T20:11:58.638Z"
+      "baseUrl": "https://ac10e7c.r2.cpolar.top",
+      "port": 8817,
+      "updatedAt": "2026-11-20T20:12:53.517Z"
     }
   ]
 }
