@@ -1,6 +1,6 @@
 {
   "schema": "dsh/bootstrap/1",
-  "updatedAt": "2026-11-21T02:39:08.147Z",
+  "updatedAt": "2026-11-21T02:40:55.574Z",
   "note": "同一 home 切换 profile 时对外入口只有一个：所有条目都指向当前活着的地址。客户端按 instanceId 匹配到条目后还应探测一次，不通则说明该条目背后的实例已不在跑。",
   "entries": [
     {
@@ -24,9 +24,9 @@
       "id": "test-v2",
       "label": "test-v2",
       "profile": "test-v2",
-      "baseUrl": "https://3c1ff1d6.r2.cpolar.top",
-      "port": 8818,
-      "updatedAt": "2026-11-21T02:39:08.147Z"
+      "baseUrl": "https://27c90f93.r2.cpolar.top",
+      "port": 8830,
+      "updatedAt": "2026-11-21T02:40:55.574Z"
     },
     {
       "id": "test-v3",
