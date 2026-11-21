@@ -1,7 +1,7 @@
 {
   "schema": "dsh/bootstrap/1",
-  "updatedAt": "2026-11-21T04:20:00.000Z",
-  "note": "一条 = 一个实例的身份（instanceId = home|profile|port）+ 它此刻对外的入口。同一 home 切换 profile 时对外入口只有一个，所以多条 baseUrl 相同：客户端必须先按 instanceId 证明是这台实例，再探一次活。钥匙不在这一面。",
+  "updatedAt": "2026-11-21T04:40:00.000Z",
+  "note": "这份清单只声明\"此刻唯一的对外入口\"：一个 home 同时只该有一个持 cpolar 的实例在跑，条目因此只有一条。它不是本 home 的 profile 目录——并列列举会把另一个实例的旧地址写成事实，客户端无从判断该信谁。instanceId = sha256(home|profile|port)，换域名不变，客户端靠它证明还是这台实例。",
   "entries": [
     {
       "id": "test-v1",
@@ -10,34 +10,7 @@
       "instanceId": "8ba1038c4a58bca34425a18fb63c4cba0c6ffd7da0af8fa01d4b41efb9d8ab2a",
       "baseUrl": "https://27c90f93.r2.cpolar.top",
       "port": 8817,
-      "updatedAt": "2026-11-21T03:49:24.736Z"
-    },
-    {
-      "id": "test-v4",
-      "label": "试验实例 · test-v4",
-      "profile": "test-v4",
-      "instanceId": "bde2898c0cce36bb62ca3b559eb3b44a5c4359ca7a0da9ccdfde8268b44395b9",
-      "baseUrl": "https://27c90f93.r2.cpolar.top",
-      "port": 8834,
-      "updatedAt": "2026-11-21T03:24:58.708Z"
-    },
-    {
-      "id": "test-v2",
-      "label": "test-v2",
-      "profile": "test-v2",
-      "instanceId": "caf40c92e7611b59e25db6f8d2246a68d762b835176083f93caf39e3c06886ec",
-      "baseUrl": "https://27c90f93.r2.cpolar.top",
-      "port": 8818,
-      "updatedAt": "2026-11-21T03:07:06.761Z"
-    },
-    {
-      "id": "test-v3",
-      "label": "test-v3",
-      "profile": "test-v3",
-      "instanceId": "b234c01dccb99667045b78e048d92155d7e522dcb85124e5bd4214a70af08627",
-      "baseUrl": "https://79e8c8d5.r2.cpolar.top",
-      "port": 3080,
-      "updatedAt": "2026-11-20T20:50:09.306Z"
+      "updatedAt": "2026-11-21T04:40:00.000Z"
     }
   ]
 }
