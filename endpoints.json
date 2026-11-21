@@ -1,6 +1,6 @@
 {
   "schema": "dsh/bootstrap/1",
-  "updatedAt": "2026-11-21T09:20:02.208Z",
+  "updatedAt": "2026-11-21T09:24:10.361Z",
   "note": "这份清单只声明\"此刻唯一的对外入口\"：一个 home 同时只该有一个持 cpolar 的实例在跑，条目因此只有一条。它不是本 home 的 profile 目录——并列列举会把另一个实例的旧地址写成事实，客户端无从判断该信谁。instanceId = sha256(home|profile|port)，换域名不变，客户端靠它证明还是这台实例。",
   "entries": [
     {
@@ -8,10 +8,10 @@
       "label": "主实例 · test-v1",
       "profile": "test-v1",
       "instanceId": "8ba1038c4a58bca34425a18fb63c4cba0c6ffd7da0af8fa01d4b41efb9d8ab2a",
-      "baseUrl": "https://1b6f9f78.r3.cpolar.cn",
+      "baseUrl": "https://6682587f.r2.cpolar.top",
       "port": 8817,
-      "updatedAt": "2026-11-21T09:20:02.208Z",
-      "mobileOrigin": "https://6682587f.r2.cpolar.top"
+      "updatedAt": "2026-11-21T09:24:10.361Z",
+      "mobileOrigin": "https://1b6f9f78.r3.cpolar.cn"
     }
   ]
 }
