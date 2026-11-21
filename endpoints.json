@@ -1,30 +1,17 @@
 {
   "schema": "dsh/bootstrap/1",
-  "updatedAt": "2026-11-21T10:20:40.095Z",
-  "note": "实例的公网域名每次重启都会变（cpolar 重新签发子域）。这份文件只写地址，不含任何凭据；登录凭据走配对口令，不从清单下发。",
-  "mobileOrigin": "https://343d79a.r2.cpolar.top",
+  "updatedAt": "2026-11-21T10:35:04.463Z",
+  "note": "这份清单只声明\"此刻唯一的对外入口\"：一个 home 同时只该有一个持 cpolar 的实例在跑，条目因此只有一条。它不是本 home 的 profile 目录——并列列举会把另一个实例的旧地址写成事实，客户端无从判断该信谁。instanceId = sha256(home|profile|port)，换域名不变，客户端靠它证明还是这台实例。",
   "entries": [
     {
       "id": "test-v1",
       "label": "主实例 · test-v1",
       "profile": "test-v1",
-      "baseUrl": "https://343d79a.r2.cpolar.top",
+      "instanceId": "8ba1038c4a58bca34425a18fb63c4cba0c6ffd7da0af8fa01d4b41efb9d8ab2a",
+      "baseUrl": "https://43d10767.r2.cpolar.top",
       "port": 8817,
-      "lanGateway": null,
-      "updatedAt": "2026-11-21T10:20:40.095Z",
-      "mobileOrigin": "https://343d79a.r2.cpolar.top",
-      "instanceId": "af1ece938fd8736022166c96bb2815c243ef70d84dfa1aaa19a7fe8aed7ecb19"
-    },
-    {
-      "id": "test-v4",
-      "label": "试验实例 · test-v4",
-      "profile": "test-v4",
-      "baseUrl": "https://343d79a.r2.cpolar.top",
-      "port": 8817,
-      "lanGateway": "https://192.168.71.54:3443",
-      "updatedAt": "2026-11-21T10:20:40.095Z",
-      "instanceId": "bde2898c0cce36bb62ca3b559eb3b44a5c4359ca7a0da9ccdfde8268b44395b9",
-      "mobileOrigin": "https://343d79a.r2.cpolar.top"
+      "updatedAt": "2026-11-21T10:35:04.463Z",
+      "mobileOrigin": "https://43d10767.r2.cpolar.top"
     }
   ]
 }
