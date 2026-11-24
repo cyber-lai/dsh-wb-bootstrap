@@ -1,6 +1,6 @@
 {
   "schema": "dsh/bootstrap/1",
-  "updatedAt": "2026-11-24T18:01:40.256Z",
+  "updatedAt": "2026-11-24T18:02:40.284Z",
   "note": "实例的公网域名每次重启都会变（cpolar 重新签发子域）。这份文件只写地址，不含任何凭据；登录凭据走配对口令，不从清单下发。",
   "mobileOrigin": "https://3005d364.r8.vip.cpolar.cn",
   "entries": [
@@ -10,10 +10,10 @@
       "profile": "test-v1",
       "baseUrl": "https://3005d364.r8.vip.cpolar.cn",
       "port": 3080,
-      "updatedAt": "2026-11-24T18:01:40.256Z",
+      "updatedAt": "2026-11-24T18:02:40.284Z",
       "mobileOrigin": "https://3005d364.r8.vip.cpolar.cn",
       "reachable": true,
-      "checkedAt": "2026-11-24T18:01:39.694Z",
+      "checkedAt": "2026-11-24T18:02:39.711Z",
       "probeMs": 451,
       "nextCheckAt": "2026-11-24T18:06:33.068Z"
     },
