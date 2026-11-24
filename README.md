@@ -31,10 +31,10 @@ https://raw.githubusercontent.com/cyber-lai/dsh-wb-bootstrap/main/endpoints.json
 
 ## 当前入口（链接自带本次 token）
 
-http://127.0.0.1:3080/?token=ZOU-kA_3DAGBrYvvZNkPGQT6clb7Y6plclcaG-jHfdk
+https://f4e60c5.r2.cpolar.top/?token=ZOU-kA_3DAGBrYvvZNkPGQT6clb7Y6plclcaG-jHfdk
 
-- origin: http://127.0.0.1:3080
-- 刷新: 2026-11-24T13:59:49.656Z
+- origin: https://f4e60c5.r2.cpolar.top
+- 刷新: 2026-11-24T14:00:53.098Z
 - 来源: publisher-memory
 - token 每次重启都会换：这一段由实例自动刷新，块外内容不会被改动。
 - 打开后若 401/403，说明这份内容比实例旧：等一分钟再刷新。
