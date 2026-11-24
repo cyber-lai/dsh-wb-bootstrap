@@ -1,34 +1,36 @@
 {
   "schema": "dsh/bootstrap/1",
-  "updatedAt": "2026-11-24T14:07:01.391Z",
+  "updatedAt": "2026-11-24T14:07:53.997Z",
   "note": "实例的公网域名每次重启都会变（cpolar 重新签发子域）。这份文件只写地址，不含任何凭据；登录凭据走配对口令，不从清单下发。",
-  "mobileOrigin": "http://127.0.0.1:3080",
+  "mobileOrigin": "https://f4e60c5.r2.cpolar.top/",
   "entries": [
     {
       "id": "test-v1",
       "label": "test-v1",
       "profile": "test-v1",
-      "baseUrl": "http://127.0.0.1:3080",
+      "baseUrl": "https://f4e60c5.r2.cpolar.top/",
       "port": 3080,
-      "updatedAt": "2026-11-24T14:07:01.391Z",
-      "mobileOrigin": "http://127.0.0.1:3080",
-      "reachable": true,
-      "checkedAt": "2026-11-24T14:06:59.547Z",
-      "probeMs": 829,
-      "nextCheckAt": "2026-11-24T14:31:19.203Z"
+      "updatedAt": "2026-11-24T14:07:52.505Z",
+      "mobileOrigin": "https://f4e60c5.r2.cpolar.top/",
+      "reachable": false,
+      "checkedAt": "2026-11-24T14:07:52.206Z",
+      "probeMs": 110,
+      "nextCheckAt": "2026-11-24T14:37:52.206Z",
+      "lastError": "http 404"
     },
     {
       "id": "test-v1-cp4",
       "label": "test-v1-cp4",
       "profile": "test-v1-cp4",
-      "baseUrl": "https://1107b27e.r3.cpolar.cn",
+      "baseUrl": "https://f4e60c5.r2.cpolar.top/",
       "port": 3080,
-      "mobileOrigin": "https://1107b27e.r3.cpolar.cn",
-      "updatedAt": "2026-11-24T14:01:20.204Z",
-      "reachable": true,
-      "checkedAt": "2026-11-24T14:01:19.203Z",
-      "probeMs": 829,
-      "nextCheckAt": "2026-11-24T14:31:19.203Z"
+      "mobileOrigin": "https://f4e60c5.r2.cpolar.top/",
+      "updatedAt": "2026-11-24T14:07:53.997Z",
+      "reachable": false,
+      "checkedAt": "2026-11-24T14:07:52.206Z",
+      "probeMs": 110,
+      "nextCheckAt": "2026-11-24T14:37:52.206Z",
+      "lastError": "http 404"
     }
   ]
 }
