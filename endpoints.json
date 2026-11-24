@@ -1,6 +1,6 @@
 {
   "schema": "dsh/bootstrap/1",
-  "updatedAt": "2026-11-24T19:06:45.313Z",
+  "updatedAt": "2026-11-24T19:07:41.957Z",
   "note": "实例的公网域名每次重启都会变（cpolar 重新签发子域）。这份文件只写地址，不含任何凭据；登录凭据走配对口令，不从清单下发。",
   "mobileOrigin": "https://3005d364.r8.vip.cpolar.cn",
   "entries": [
@@ -10,12 +10,13 @@
       "profile": "test-v1",
       "baseUrl": "https://3005d364.r8.vip.cpolar.cn",
       "port": 3080,
-      "updatedAt": "2026-11-24T19:06:45.313Z",
+      "updatedAt": "2026-11-24T19:07:41.957Z",
       "mobileOrigin": "https://3005d364.r8.vip.cpolar.cn",
-      "reachable": true,
-      "checkedAt": "2026-11-24T19:06:43.217Z",
-      "probeMs": 633,
-      "nextCheckAt": "2026-11-24T19:07:40.787Z"
+      "reachable": false,
+      "checkedAt": "2026-11-24T19:07:41.742Z",
+      "probeMs": 125,
+      "nextCheckAt": "2026-11-24T19:37:41.742Z",
+      "lastError": "http 502"
     },
     {
       "id": "test-v1-cp4",
@@ -24,11 +25,12 @@
       "baseUrl": "https://3005d364.r8.vip.cpolar.cn",
       "port": 3080,
       "mobileOrigin": "https://3005d364.r8.vip.cpolar.cn",
-      "updatedAt": "2026-11-24T18:37:41.420Z",
-      "reachable": true,
-      "checkedAt": "2026-11-24T18:37:40.787Z",
-      "probeMs": 633,
-      "nextCheckAt": "2026-11-24T19:07:40.787Z"
+      "updatedAt": "2026-11-24T19:07:41.867Z",
+      "reachable": false,
+      "checkedAt": "2026-11-24T19:07:41.742Z",
+      "probeMs": 125,
+      "nextCheckAt": "2026-11-24T19:37:41.742Z",
+      "lastError": "http 502"
     }
   ]
 }
