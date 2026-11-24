@@ -31,10 +31,10 @@ https://raw.githubusercontent.com/cyber-lai/dsh-wb-bootstrap/main/endpoints.json
 
 ## 当前入口（链接自带本次 token）
 
-https://3005d364.r8.vip.cpolar.cn/?token=YWB9dgtD94LXfeQuEvvJDSyKaMZs5vcxZ-Gri25C5hQ
+https://7d748989.r3.cpolar.cn/?token=23YAS50oL9vQz2cup6nkozFUQQAHPsRX0aWwOXA60Tw
 
-- origin: https://3005d364.r8.vip.cpolar.cn
-- 刷新: 2026-11-24T22:18:53.297Z
+- origin: https://7d748989.r3.cpolar.cn
+- 刷新: 2026-11-24T22:20:48.512Z
 - 来源: publisher-memory
 - token 每次重启都会换：这一段由实例自动刷新，块外内容不会被改动。
 - 打开后若 401/403，说明这份内容比实例旧：等一分钟再刷新。
