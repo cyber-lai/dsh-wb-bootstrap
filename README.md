@@ -26,3 +26,17 @@ https://raw.githubusercontent.com/cyber-lai/dsh-wb-bootstrap/main/endpoints.json
 | `entries[].lanGateway` | 局域网网关（仅同网可用的加速入口） |
 
 客户端匹配规则：**只认 `instanceId` 相同、且地址不同的那条**，同名不算、无 id 只作展示。
+
+<!-- dsh-wb:entry:begin -->
+
+## 当前入口（链接自带本次 token）
+
+https://440e8b4c.r2.cpolar.top/?token=AuDsm3Q0moNbq0EAYdrk-9NOggB23XcTZ42YSH2M4j4
+
+- origin: https://440e8b4c.r2.cpolar.top
+- 刷新: 2026-11-24T10:32:41.416Z
+- 来源: ledger
+- token 每次重启都会换：这一段由实例自动刷新，块外内容不会被改动。
+- 打开后若 401/403，说明这份内容比实例旧：等一分钟再刷新。
+
+<!-- dsh-wb:entry:end -->
