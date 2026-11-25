@@ -1,6 +1,6 @@
 {
   "schema": "dsh/bootstrap/1",
-  "updatedAt": "2026-11-25T00:56:58.067Z",
+  "updatedAt": "2026-11-25T00:57:58.127Z",
   "note": "实例的公网域名每次重启都会变（cpolar 重新签发子域）。这份文件只写地址，不含任何凭据；登录凭据走配对口令，不从清单下发。",
   "mobileOrigin": "https://37356823.r2.cpolar.top",
   "entries": [
@@ -10,10 +10,10 @@
       "profile": "test-v1",
       "baseUrl": "https://37356823.r2.cpolar.top",
       "port": 3080,
-      "updatedAt": "2026-11-25T00:56:58.067Z",
+      "updatedAt": "2026-11-25T00:57:58.127Z",
       "mobileOrigin": "https://37356823.r2.cpolar.top",
       "reachable": true,
-      "checkedAt": "2026-11-25T00:56:57.528Z",
+      "checkedAt": "2026-11-25T00:57:57.566Z",
       "probeMs": 481,
       "nextCheckAt": "2026-11-25T01:03:47.340Z"
     },
