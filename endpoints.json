@@ -1,8 +1,8 @@
 {
   "schema": "dsh/bootstrap/1",
-  "updatedAt": "2026-11-25T01:54:35.366Z",
+  "updatedAt": "2026-11-25T01:54:54.665Z",
   "note": "实例的公网域名每次重启都会变（cpolar 重新签发子域）。这份文件只写地址，不含任何凭据；登录凭据走配对口令，不从清单下发。",
-  "mobileOrigin": "https://76626250.r2.cpolar.top",
+  "mobileOrigin": "http://127.0.0.1:3081",
   "entries": [
     {
       "id": "test-v1",
@@ -10,10 +10,10 @@
       "profile": "test-v1",
       "baseUrl": "https://76626250.r2.cpolar.top",
       "port": 3080,
-      "updatedAt": "2026-11-25T01:54:35.366Z",
+      "updatedAt": "2026-11-25T01:54:24.187Z",
       "mobileOrigin": "https://76626250.r2.cpolar.top",
       "reachable": true,
-      "checkedAt": "2026-11-25T01:54:34.452Z",
+      "checkedAt": "2026-11-25T01:53:47.962Z",
       "probeMs": 583,
       "nextCheckAt": "2026-11-25T02:23:47.962Z",
       "state": {
@@ -25,12 +25,12 @@
       "id": "test-v1-cp4",
       "label": "test-v1-cp4",
       "profile": "test-v1-cp4",
-      "baseUrl": "https://76626250.r2.cpolar.top",
+      "baseUrl": "http://127.0.0.1:3081",
       "port": 3080,
-      "mobileOrigin": "https://76626250.r2.cpolar.top",
-      "updatedAt": "2026-11-25T01:54:24.187Z",
+      "mobileOrigin": "http://127.0.0.1:3081",
+      "updatedAt": "2026-11-25T01:54:54.665Z",
       "reachable": true,
-      "checkedAt": "2026-11-25T01:53:47.962Z",
+      "checkedAt": "2026-11-25T01:54:54.663Z",
       "probeMs": 583,
       "nextCheckAt": "2026-11-25T02:23:47.962Z",
       "state": {
