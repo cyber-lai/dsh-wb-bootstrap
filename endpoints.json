@@ -1,6 +1,6 @@
 {
   "schema": "dsh/bootstrap/1",
-  "updatedAt": "2026-11-25T05:55:41.231Z",
+  "updatedAt": "2026-11-25T05:56:41.339Z",
   "note": "实例的公网域名每次重启都会变（cpolar 重新签发子域）。这份文件只写地址，不含任何凭据；登录凭据走配对口令，不从清单下发。",
   "mobileOrigin": "https://76626250.r2.cpolar.top",
   "entries": [
@@ -10,12 +10,12 @@
       "profile": "test-v1",
       "baseUrl": "https://76626250.r2.cpolar.top",
       "port": 3080,
-      "updatedAt": "2026-11-25T05:55:41.231Z",
+      "updatedAt": "2026-11-25T05:56:41.339Z",
       "mobileOrigin": "https://76626250.r2.cpolar.top",
       "reachable": true,
-      "checkedAt": "2026-11-25T05:55:40.317Z",
-      "probeMs": 526,
-      "nextCheckAt": "2026-11-25T05:56:39.485Z",
+      "checkedAt": "2026-11-25T05:56:40.339Z",
+      "probeMs": 545,
+      "nextCheckAt": "2026-11-25T06:26:40.339Z",
       "state": {
         "source": "reused-tunnel",
         "serving": true
@@ -28,11 +28,11 @@
       "baseUrl": "https://76626250.r2.cpolar.top",
       "port": 3080,
       "mobileOrigin": "https://76626250.r2.cpolar.top",
-      "updatedAt": "2026-11-25T05:26:40.012Z",
+      "updatedAt": "2026-11-25T05:56:40.884Z",
       "reachable": true,
-      "checkedAt": "2026-11-25T05:26:39.485Z",
-      "probeMs": 526,
-      "nextCheckAt": "2026-11-25T05:56:39.485Z",
+      "checkedAt": "2026-11-25T05:56:40.339Z",
+      "probeMs": 545,
+      "nextCheckAt": "2026-11-25T06:26:40.339Z",
       "state": {
         "source": "reused-tunnel",
         "serving": true
