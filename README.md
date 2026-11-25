@@ -34,7 +34,7 @@ https://raw.githubusercontent.com/cyber-lai/dsh-wb-bootstrap/main/endpoints.json
 http://127.0.0.1:3081/?token=Ifl8YScTyE1lseIbHcbNARtaCMbFCFY1oMjLuVng_o0
 
 - origin: http://127.0.0.1:3081
-- 刷新: 2026-11-25T12:25:18.818Z
+- 刷新: 2026-11-25T12:26:15.002Z
 - 来源: publisher-memory
 - token 每次重启都会换：这一段由实例自动刷新，块外内容不会被改动。
 - 打开后若 401/403，说明这份内容比实例旧：等一分钟再刷新。
