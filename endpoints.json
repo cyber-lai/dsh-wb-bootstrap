@@ -1,6 +1,6 @@
 {
   "schema": "dsh/bootstrap/1",
-  "updatedAt": "2026-11-25T01:18:02.336Z",
+  "updatedAt": "2026-11-25T01:18:59.664Z",
   "note": "实例的公网域名每次重启都会变（cpolar 重新签发子域）。这份文件只写地址，不含任何凭据；登录凭据走配对口令，不从清单下发。",
   "mobileOrigin": "https://53354a24.r2.cpolar.top",
   "entries": [
@@ -10,16 +10,17 @@
       "profile": "test-v1",
       "baseUrl": "https://53354a24.r2.cpolar.top",
       "port": 3080,
-      "updatedAt": "2026-11-25T01:18:02.336Z",
+      "updatedAt": "2026-11-25T01:18:59.664Z",
       "mobileOrigin": "https://53354a24.r2.cpolar.top",
-      "reachable": true,
-      "checkedAt": "2026-11-25T01:18:00.965Z",
-      "probeMs": 445,
-      "nextCheckAt": "2026-11-25T01:47:50.002Z",
+      "reachable": false,
+      "checkedAt": "2026-11-25T01:18:59.098Z",
+      "probeMs": 100,
+      "nextCheckAt": "2026-11-25T01:48:59.098Z",
       "state": {
-        "source": "reused-tunnel",
-        "serving": true
-      }
+        "source": "free",
+        "serving": false
+      },
+      "lastError": "http 404"
     },
     {
       "id": "test-v1-cp4",
@@ -28,15 +29,16 @@
       "baseUrl": "https://53354a24.r2.cpolar.top",
       "port": 3080,
       "mobileOrigin": "https://53354a24.r2.cpolar.top",
-      "updatedAt": "2026-11-25T01:17:50.616Z",
-      "reachable": true,
-      "checkedAt": "2026-11-25T01:17:50.002Z",
-      "probeMs": 445,
-      "nextCheckAt": "2026-11-25T01:47:50.002Z",
+      "updatedAt": "2026-11-25T01:18:59.198Z",
+      "reachable": false,
+      "checkedAt": "2026-11-25T01:18:59.098Z",
+      "probeMs": 100,
+      "nextCheckAt": "2026-11-25T01:48:59.098Z",
       "state": {
-        "source": "reused-tunnel",
-        "serving": true
-      }
+        "source": "free",
+        "serving": false
+      },
+      "lastError": "http 404"
     }
   ]
 }
