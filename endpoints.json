@@ -1,44 +1,42 @@
 {
   "schema": "dsh/bootstrap/1",
-  "updatedAt": "2026-11-25T01:48:11.356Z",
+  "updatedAt": "2026-11-25T01:48:18.599Z",
   "note": "实例的公网域名每次重启都会变（cpolar 重新签发子域）。这份文件只写地址，不含任何凭据；登录凭据走配对口令，不从清单下发。",
-  "mobileOrigin": "https://41b07dea.r2.cpolar.top",
+  "mobileOrigin": "https://76626250.r2.cpolar.top",
   "entries": [
     {
       "id": "test-v1",
       "label": "test-v1",
       "profile": "test-v1",
-      "baseUrl": "https://41b07dea.r2.cpolar.top",
+      "baseUrl": "https://76626250.r2.cpolar.top",
       "port": 3080,
-      "updatedAt": "2026-11-25T01:48:11.356Z",
-      "mobileOrigin": "https://41b07dea.r2.cpolar.top",
-      "reachable": false,
-      "checkedAt": "2026-11-25T01:48:10.796Z",
-      "probeMs": 107,
-      "nextCheckAt": "2026-11-25T02:18:10.796Z",
+      "updatedAt": "2026-11-25T01:48:18.599Z",
+      "mobileOrigin": "https://76626250.r2.cpolar.top",
+      "reachable": true,
+      "checkedAt": "2026-11-25T01:48:16.801Z",
+      "probeMs": 447,
+      "nextCheckAt": "2026-11-25T02:18:16.801Z",
       "state": {
-        "source": "free",
-        "serving": false
-      },
-      "lastError": "http 404"
+        "source": "reused-tunnel",
+        "serving": true
+      }
     },
     {
       "id": "test-v1-cp4",
       "label": "test-v1-cp4",
       "profile": "test-v1-cp4",
-      "baseUrl": "https://41b07dea.r2.cpolar.top",
+      "baseUrl": "https://76626250.r2.cpolar.top",
       "port": 3080,
-      "mobileOrigin": "https://41b07dea.r2.cpolar.top",
-      "updatedAt": "2026-11-25T01:48:10.903Z",
-      "reachable": false,
-      "checkedAt": "2026-11-25T01:48:10.796Z",
-      "probeMs": 107,
-      "nextCheckAt": "2026-11-25T02:18:10.796Z",
+      "mobileOrigin": "https://76626250.r2.cpolar.top",
+      "updatedAt": "2026-11-25T01:48:17.249Z",
+      "reachable": true,
+      "checkedAt": "2026-11-25T01:48:16.801Z",
+      "probeMs": 447,
+      "nextCheckAt": "2026-11-25T02:18:16.801Z",
       "state": {
-        "source": "free",
-        "serving": false
-      },
-      "lastError": "http 404"
+        "source": "reused-tunnel",
+        "serving": true
+      }
     }
   ]
 }
