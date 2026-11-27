@@ -34,7 +34,7 @@ https://raw.githubusercontent.com/cyber-lai/dsh-wb-bootstrap/main/endpoints.json
 https://6b2b5359.r2.cpolar.top/?token=tfay0GsVJyJdOyvGqE7Dp42dNioAkSN-HPtFNBXAOU0
 
 - origin: https://6b2b5359.r2.cpolar.top
-- 刷新: 2026-11-27T19:08:08.392Z
+- 刷新: 2026-11-27T19:09:08.519Z
 - 来源: publisher-memory
 - token 每次重启都会换：这一段由实例自动刷新，块外内容不会被改动。
 - 打开后若 401/403，说明这份内容比实例旧：等一分钟再刷新。
